@@ -37,9 +37,9 @@ cal_dates: >
     {"label":"Holiday: Memorial Day", "date":"2024-05-27" },
     {"label":"S25 instruction ends", "date":"2024-06-07" },
     {"label":"S25 CS 9 FINAL (4:00pm - 6:00pm)", "date":"2024-06-13" }, 
-    {"label":"S25 qtr ends", "date":"2024-06-14" },
-#    {"label":"S25 grades due", "date":"2024-06-17" }                              
+    {"label":"S25 qtr ends", "date":"2024-06-14" }
   ]
+#    {"label":"S25 grades due", "date":"2024-06-17" }
 
 kramdown:
    parse_block_html: true
