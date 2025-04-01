@@ -33,9 +33,9 @@ offering_links:
      description: "Course Calendar"
 # also used in _config.yml
    - title: Gradescope
-     url: https://www.gradescope.com/courses/762356/assignments # {{ site.gradescope_url }}
+     url: https://www.gradescope.com/ # {{ site.gradescope_url }}
      description: "Assignment Submission"
    - title: Forum
-     url: 
+     url: https://edstem.org/us/courses/77556/discussion
      description: "Q&A forum"
 

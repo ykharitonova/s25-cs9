@@ -11,9 +11,11 @@ course: "CS 9"
 qtr: "S25"
 instructor: "Prof Kate"
 quarter: "Spring 2025"
+slides_url: https://drive.google.com/drive/folders/1a7vy_RIU21zM9rZ0bHaPg5XrXwEOB7i4?usp=sharing
+# ### TODO: check navigation.yml for top-bar links
 piazza_url: https://edstem.org/us/courses/77556/discussion
 gradescope_url: 
-slides_url: https://drive.google.com/drive/folders/1a7vy_RIU21zM9rZ0bHaPg5XrXwEOB7i4?usp=sharing
+
 
 github_url: https://github.com/ucsb-cs9/s25
 
