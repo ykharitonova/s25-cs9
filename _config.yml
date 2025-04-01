@@ -13,7 +13,7 @@ instructor: "Prof Kate"
 quarter: "Spring 2025"
 piazza_url: https://edstem.org/us/courses/77556/discussion
 gradescope_url: 
-slides_url: 
+slides_url: https://drive.google.com/drive/folders/1a7vy_RIU21zM9rZ0bHaPg5XrXwEOB7i4?usp=sharing
 
 github_url: https://github.com/ucsb-cs9/s25
 
@@ -32,14 +32,14 @@ cal_dates: >
   [                                                                            
     {"label":"S25 1st day of instruction", "date":"2025-04-01" },
     {"label":"Academic Integrity Contract Due", "date":"2025-04-09" },
-    {"label":"S25 deadline to drop courses w/o W", "date":"2024-04-25" },
-    {"label":"S25 CS 9 MIDTERM (3:30pm - 4:45pm)", "date":"2024-05-02" }, 
-    {"label":"Holiday: Memorial Day", "date":"2024-05-27" },
-    {"label":"S25 instruction ends", "date":"2024-06-07" },
-    {"label":"S25 CS 9 FINAL (4:00pm - 6:00pm)", "date":"2024-06-13" }, 
-    {"label":"S25 qtr ends", "date":"2024-06-14" }
+    {"label":"S25 deadline to drop courses w/o W", "date":"2025-04-25" },
+    {"label":"S25 CS 9 MIDTERM (3:30pm - 4:45pm)", "date":"2025-05-01" }, 
+    {"label":"Holiday: Memorial Day", "date":"2025-05-26" },
+    {"label":"S25 instruction ends", "date":"2025-06-06" },
+    {"label":"S25 CS 9 FINAL (7:30pm - 9:00pm)", "date":"2025-06-09" }, 
+    {"label":"S25 qtr ends", "date":"2025-06-13" }
   ]
-#    {"label":"S25 grades due", "date":"2024-06-17" }
+#    {"label":"S25 grades due", "date":"2025-06-17" }
 
 kramdown:
    parse_block_html: true

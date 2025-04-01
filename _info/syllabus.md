@@ -98,8 +98,11 @@ Your course grade will be determined as follows:
 | Academic Integrity Contract                   | 1 %                      |
 | Homeworks                                     | 9 %                      |
 | Labs                                          | 20 %                      |
-| Midterm (Week 5, Thu 05/02) 3:30pm - 4:45pm   | 35 %                      |
-| Final (Th 06/13), 4:00pm - 6:00pm             | 35 %                      |
+| Midterm (Week 5, Thu 05/01) 3:30pm - 4:45pm   | 35 %                      |
+| Final (Mon 06/09), 7:30pm - 9:00pm             | 35 %                      |
+
+Feel free to double-check that the final exam date and time are correct:
+<https://registrar.sa.ucsb.edu/calendars/calendars-deadlines/final-examinations/winter-final-examination-schedule>
 
 In general, homeworks will be assigned periodically throughout the quarter and should be completed on Gradescope by the due date.
 
@@ -131,7 +134,7 @@ This policy does not cover overwhelming workload from other courses, scheduling 
 Any accommodation requests based on religious affiliation or an athletic event are required to be submitted **before the end of Week 2.** 
 We will not accommodate any last-minute requests.
 
-Use the following [request for an extension form](https://forms.gle/NeuEC7U7dEo2fVeBA) to submit your documented accommodation and attach the documentation (e.g., for varsity sports-related absences submit a signed letter from the coach with the tournament dates with your name on it). You will need to submit this form separately for _each week_ in which you will need the accommodation.
+Use the following [request for an extension form](https://forms.gle/wLVoukHDTKneiwxf8) to submit your documented accommodation and attach the documentation (e.g., for varsity sports-related absences submit a signed letter from the coach with the tournament dates with your name on it). You will need to submit this form separately for _each week_ in which you will need the accommodation.
 
 
 Accommodations for disabilities
@@ -176,5 +179,6 @@ Standard Disclaimer
 This syllabus is as accurate as possible but is subject to change at the instructor's discretion, within the bounds of UC policy.
 
 _Last Updated:_ 
+* Apr 1 - corrected the midterm and the final exam dates
 * Mar 27 - initial live version of the syllabus 
  
