@@ -9,9 +9,11 @@ due: 2024-04-08 23:59:59.59-7
 
 # Introduction
 
-As a new employee of SecureNet Consulting, your first task is to set up your workspace and learn how to submit your completed tasks for evaluation (grading). Your work is evaluated by an autograder. Fortunately, you can check your work locally (before turning it in) to ensure that your code is robust.
+As a new employee of SecureNet Consulting, your first task is to set up your workspace and learn how to submit your completed tasks for evaluation (grading). 
+Your work is evaluated by an autograder. 
+Fortunately, you can check your work locally (before turning it in) to ensure your code is robust.
 
-As always, to understand the big picture of the assignment in front of you, you are expected to first read all instructions from the beginning to the end _before_ you begin implementing any of them.
+As always, to understand the big picture of the assignment in front of you, you are expected to read all instructions from the beginning to the end _before_ you begin implementing any of them.
 
 
 ## Goals for this lab
@@ -36,8 +38,8 @@ To do this lab, you should be comfortable
 
 # Get setup with Gradescope
 
-SecureNet Consulting employees are evaluated with quarterly reviews, which are the aggregate of more regular evaluations through Gradescope. Your quarterly review will be your final grade, which will reflect all your homeworks, quizzes, and lab assignments. 
-All these scores will be stored and provided vi [Gradescope]({{ site.gradescope }}).
+SecureNet Consulting employees are evaluated with quarterly reviews, which are the aggregate of more regular evaluations through Gradescope. Your quarterly review will be your final grade, which will reflect all your homework, quizzes, and lab assignments. 
+All these scores will be stored and provided via [Gradescope]({{ site.gradescope }}).
 
 
 Gradescope trusts the identity vetting of Canvas, so you will be automatically added to Gradescope (using your **@umail.ucsb.edu** account) if you click on the Gradescope link on Canvas. Once Canvas authenticates you, you should be able to use the link from the website and go to Gradescope directly.
@@ -45,7 +47,8 @@ Gradescope trusts the identity vetting of Canvas, so you will be automatically a
 
 <!-- You should have received an email notification with instructions about logging into Gradescope. Once you follow the instructions to set your password, you should have access to our course on Gradescope. You should see "CMPSC 9" in your Winter 2024 courses. -->
 
-The lab assignment "Lab00" should appear in your Gradescope dashboard in CMPSC 9. You will need to submit your code for Lab00 using the instructions on this page.
+The lab assignment "Lab00" should appear in your Gradescope dashboard in CMPSC 9. 
+You will submit your code for Lab00 using the instructions on this page.
 
 As always in this class, you can submit your files as often as you'd like to Gradescope (we encourage you to submit your code often to back up your progress).
 
@@ -104,8 +107,7 @@ Steps for creating this new file with IDLE are:
 
 # Copy the following code template into `lab00.py` and complete the function definitions
 
-As a newly hired security analyst, you are responsible for implementing
- three Python functions for this lab, which review some of the concepts covered in CS 8 and the readings in h00.
+As a newly hired security analyst, you are responsible for implementing three Python functions for this lab, which review some of the concepts covered in CS 8 and the readings in h00.
 You will need to learn how to submit assignments and check your own work before you submit it for evaluation.
 
 Assert statements are a quick way to do simple testing.
@@ -115,7 +117,7 @@ The goal is to run your code such that these assert statements do not produce an
 In Python, code is executed line-by-line from top to bottom. So if your code has an error and an `assert` statement doesn't pass, then you will see which `assert` 
 statement failed and execution will stop (no other statements after the error will be executed).
 
-To run your `lab00.py` file in IDLE, go to "Run" -> "Run Module". This will execute the file you're working on and the output will be displayed 
+To run your `lab00.py` file in IDLE, go to "Run" -> "Run Module". This will execute the file you're working on and display the output in 
 in IDLE's Interactive Shell. Remember to configure IDLE to show line numbers - it will make debugging a lot easier (IDLE Settings -> Shell/Ed).
 
 
@@ -125,20 +127,29 @@ Copy the following code into your `lab00.py` file and complete the function defi
 # Lab00, CS 9, [type your name here]
 
 def found_in_list(list1, list2):
-    ''' This function takes two lists as its parameters (list1 and
-        list2). Return True if each element in list1 exists in list2.
+    ''' When analyzing potentially malicious network traffic, analysts often 
+	need to check if suspicious IP addresses or domains appear in known
+	threat intelligence lists.
+	This function takes two lists as its parameters (list1 and
+	list2). Return True if each element in list1 exists in list2.
         Return False otherwise. If list1 contains no elements, return True.
+
     '''
     # COMPLETE FUNCTION DEFINITION HERE
 
 assert found_in_list(["one",2], [0,"one",2,"three"]) == True
 assert found_in_list([], [1,2,3,4]) == True
-assert found_in_list([1,2,3], [1,2]) == False
+assert found_in_list(["192.68.35.33","128.66.3.48"], ["128.67.3.148"]) == False
 assert found_in_list([1,2,3], [3,2,1]) == True
 
 def alternate_case(text):
-    ''' This function takes a string parameter (text) and returns a new
+    ''' In cybersecurity, obfuscation techniques are common. Malware authors 
+  	often use case alternation to evade simple string matching in security
+ 	tools. Security analysts need to normalize text for proper analysis.
+
+  	This function takes a string parameter (text) and returns a new
         string that flips the case of each alpha character in the provided text.
+
     '''
     # COMPLETE FUNCTION DEFINITION HERE
 
@@ -148,7 +159,10 @@ assert alternate_case("CS9") == "cs9"
 assert alternate_case("9.95") == "9.95"
 
 def get_counts(text):
-    ''' This function takes a string parameter (text) and returns a dictionary
+    ''' Character frequency analysis is crucial in cryptography and for detecting
+  	encoding anomalies in suspicious files or communications.
+
+	This function takes a string parameter (text) and returns a dictionary
         type where each key in the dictionary is a unique upper-case character
         in `text` and its associated value is the number of occurrences of the 
         unique character in text. Note that the unique characters should be case
@@ -172,16 +186,18 @@ assert dict2.get(".") == 1
 assert dict2.get(4) == None
 
 def swap_key_val(database):
-    """
+    """ In security operations, data often needs to be reorganized for different 
+	types of lookups or to create reverse mappings.
+
     	The function expects a database to be a dictionary.
     	Assuming that an input dictionary has unique values for each key,
     	return a new dictionary with the keys and values swapped.
     """
 # COMPLETE FUNCTION DEFINITION HERE
 
-capitals = {"India": "Delhi", "Azerbaijan": "Baku" }
-countries = swap_key_val(capitals)
-assert countries["Baku"] == "Azerbaijan"
+weaknesses = {"CWE-20": "Improper Input Validation", "CWE-287": "Improper Authentication" }
+reverse_weaknesses = swap_key_val(weaknesses)
+assert weaknesses["Improper Authentication"] == "CWE-287"
 ```
 
 
