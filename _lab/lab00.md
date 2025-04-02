@@ -205,6 +205,8 @@ reverse_weaknesses = swap_key_val(weaknesses)
 assert reverse_weaknesses["Improper Authentication"] == "CWE-287"
 ```
 
+> Note that since the `swap_key_val()` function is supposed to return a **new** dictionary, it means that the original `database` parameter should not be modified. _write an assertion that tests that the initial object is intact._ Ask for help if you are not sure how to structure such assert statement.
+
 
 # Submitting to Gradescope
 
@@ -270,5 +272,9 @@ Check that you named your file EXACTLY as was specified - remember that Python i
 
 ---
 
-
 As a SecureNet Consulting analyst, your careful attention to detail and ability to read, understand, and follow the instructions will allow you to minimize debugging time.
+
+---
+
+_Acknowledgment: This lab has been modified in collaboration with Noah Spahn to incorporate cybersecurity context._
+
