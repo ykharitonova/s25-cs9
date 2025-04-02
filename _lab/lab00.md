@@ -118,7 +118,12 @@ In Python, code is executed line-by-line from top to bottom. So if your code has
 statement failed and execution will stop (no other statements after the error will be executed).
 
 To run your `lab00.py` file in IDLE, go to "Run" -> "Run Module". This will execute the file you're working on and display the output in 
-in IDLE's Interactive Shell. Remember to configure IDLE to show line numbers - it will make debugging a lot easier (IDLE Settings -> Shell/Ed).
+in IDLE's Interactive Shell. 
+
+> Remember to configure IDLE to show line numbers - it will make debugging a lot easier (IDLE Settings -> `Shell/Ed`).
+> You can enable line numbers by going to IDLE -> Settings and in the dialog box that opens up, clicking on the `Shell/Ed` tab and clicking on the checkmark `Show line numbers in new windows`.
+> To see the line numbers, close the opened file and re-open it.
+> Alternatively, you can select the `"Show Line Numbers"` option from the top `"Options"` menu. 
 
 
 Copy the following code into your `lab00.py` file and complete the function definitions according to the comments (remember to type your actual name on the first line):
