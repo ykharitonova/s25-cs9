@@ -202,7 +202,7 @@ def swap_key_val(database):
 
 weaknesses = {"CWE-20": "Improper Input Validation", "CWE-287": "Improper Authentication" }
 reverse_weaknesses = swap_key_val(weaknesses)
-assert weaknesses["Improper Authentication"] == "CWE-287"
+assert reverse_weaknesses["Improper Authentication"] == "CWE-287"
 ```
 
 
